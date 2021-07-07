@@ -1,0 +1,15 @@
+defaults:
+    - algo: sac
+
+num_train_steps: 1e6
+fifo_buffer_capacity: 3e5
+mh_buffer_capacity: 10
+
+exploration:
+    num_init_explr: 2
+    num_periodic_explr: 0
+
+eval_granularity: 10000
+device: cuda
+seed: ???
+env_name: ???
